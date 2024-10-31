@@ -1,27 +1,27 @@
 
 ### Clone the repository and navigate to the directory
-git clone https://github.com/yourusername/langchain-course.git
-cd langchain-course
+`git clone https://github.com/yourusername/langchain-course.git`
+`cd langchain-course`
 
 #### Create a virtual environment using venv
-python -m venv langchain-env
+`python -m venv langchain-env`
 
 # Activate the virtual environment
 ### On Windows
-langchain-env\Scripts\activate
+`langchain-env\Scripts\activate`
 ### On macOS and Linux
-source langchain-env/bin/activate
+`source langchain-env/bin/activate`
 
 ### Install the required packages
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ### Running Exercises
 
 #### Navigate to the `exercises` directory and run the Python scripts
-cd exercises
-python simple_exercise.py
-python medium_exercise.py
-python hard_exercise.py
+`cd exercises`
+`python simple_exercise.py`
+`python medium_exercise.py`
+`python hard_exercise.py`
 
 ### Notes
 
