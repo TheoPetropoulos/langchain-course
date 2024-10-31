@@ -3,6 +3,7 @@ The open-source framework that we will be using is called [LangChain](https://py
 
 ### Clone the repository and navigate to the directory
 `git clone https://github.com/TheoPetropoulos/langchain-course.git`
+
 `cd langchain-course`
 
 #### Create a virtual environment using venv
