@@ -19,8 +19,11 @@
 
 #### Navigate to the `exercises` directory and run the Python scripts
 `cd exercises`
+
 `python simple_exercise.py`
+
 `python medium_exercise.py`
+
 `python hard_exercise.py`
 
 ### Notes
