@@ -3,11 +3,12 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langgraph.graph import StateGraph
 from langchain_core.messages import HumanMessage, AIMessage
 import time
+from typing import TypedDict
 
 # Define the state schema
 class ChatState(TypedDict):
   input: str
-  chat_history: List[HumanMessage | AIMessage]
+  chat_history: list[HumanMessage | AIMessage]
 
 # Initialize chat model
 chat_model = ChatOllama(model="llama3.2:3b")
